@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
 
+/* Navigation Section */
+
 .site-navigation-container {
     background-color: #133A00;
 }
@@ -11,7 +13,7 @@ body {
 .site-navigation-contents {
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #F6FAFB;
 }
 
 .site-navigation-icon {
@@ -21,4 +23,100 @@ body {
 
 .site-navigation-title {
     font-size: 26px;
+}
+
+/* Registration Section */
+
+.registration-section-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.registration-section-container-relative {
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    top: 250px;
+} 
+
+.registration-section-outer-form-header {
+    margin: 0px 0px 5px 15px;
+    color: #F6FAFB;
+}
+
+.registration-section-inner-form-header {
+    margin-top: 0px;
+}
+
+.registration-section-form-container {
+    margin-left: 15px;
+}
+
+.registration-section-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    background-color: #F6FAFB;
+    padding: 35px 15px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+
+.registration-form-input-contents {
+    margin-bottom: 40px;
+    font-family: 'Poppins'
+}
+
+.phone-label {
+    margin-right: 70px;
+    width: 200px;
+}
+
+textarea {
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    background-color: #F6FAFB
+}
+
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #F6FAFB
+}
+
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.registration-terms-conditions-container {
+    display: flex;
+}
+
+.registration-form-checkbox {
+    margin: 0px 5px 11px 0px;
+}
+
+.registration-section-terms-conditions {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.registration-form-button {
+    max-width: 30%;
+    min-height: 20%;
+    background-color: #133A00;
+    color: #F6FAFB;
+    border: none;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
 }
