@@ -1,3 +1,24 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation-container {
+    background-color: #133A00;
+}
+
+.site-navigation-contents {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.site-navigation-icon {
+    margin: 0px 15px 0px 18px;
+    font-size: 24px;
+}
+
+.site-navigation-title {
+    font-size: 26px;
 }
