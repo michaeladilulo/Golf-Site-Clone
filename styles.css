@@ -104,6 +104,10 @@ textarea:focus, input:focus {
     margin: 0px 5px 11px 0px;
 }
 
+.registration-form-checkbox:hover {
+    cursor: pointer;
+}
+
 .registration-section-terms-conditions {
     font-size: 11px;
     margin-top: 0px;
@@ -119,4 +123,31 @@ textarea:focus, input:focus {
     margin-top: 10px;
     border-radius: 5px;
     outline: none;
+}
+
+.registration-form-button:hover {
+    cursor: pointer;
+}
+
+/* Text Overlay Section */
+
+.registration-section-services-preview {
+    position: absolute;
+    z-index: 1;
+    top: 185px;
+    left: 680px;
+    border-left: 5px solid #F6FAFB;
+    max-width: 491px;
+}
+
+.registration-section-services-header {
+    color: #F6FAFB;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.registration-section-services-text {
+    color: #F6FAFB;
+    margin-bottom: 5px;
+    margin-left: 25px;
 }
