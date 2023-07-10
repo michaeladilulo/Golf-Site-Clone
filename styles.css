@@ -159,23 +159,8 @@ textarea:focus, input:focus {
     grid-template-columns: 1fr 1fr;
     background-color: #133A00;
     margin-top: -7px;
-    justify-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.amenities-section-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.information-section-content {
-    max-width: 70%;
-    color: #F6FAFB;
 }
 
 .amenities-section-container {
@@ -183,13 +168,29 @@ textarea:focus, input:focus {
     background-color: #F6FAFB;
     border: 1px solid transparent;
     border-radius: 5px;
+    position: absolute;
+    right: 100px;
+    top: 915px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.amenities-section-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.information-section-content {
+    max-width: 70%;
+    color: #F6FAFB;
+    margin-left: 70px;
 }
 
 .amenities-section-content {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .amenities-icon {
