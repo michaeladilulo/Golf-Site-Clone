@@ -151,3 +151,56 @@ textarea:focus, input:focus {
     margin-bottom: 5px;
     margin-left: 25px;
 }
+
+/* Information Section */
+
+.information-amenities-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #133A00;
+    margin-top: -7px;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.amenities-section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.information-section-content {
+    max-width: 70%;
+    color: #F6FAFB;
+}
+
+.amenities-section-container {
+    margin-right: 50px;
+    background-color: #F6FAFB;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.amenities-section-content {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.amenities-icon {
+    margin: 0px 0px 0px 50px;
+}
+
+.amenities-text {
+    margin: 0px 50px 0px 20px;
+    font-size: 12px;
+}
+
+.golf-amenities-icon {
+    font-size: 18px;
+}
