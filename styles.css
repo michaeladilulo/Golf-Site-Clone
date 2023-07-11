@@ -320,3 +320,23 @@ textarea:focus, input:focus {
     margin-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
+
+  /* End Section Before Footer */
+
+  .golf-last-minute-words-container {
+    background-color: #133A00;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 95px;
+  }
+
+  .golf-last-minute-words-header {
+    color: #F6FAFB;
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .golf-last-minute-words-text {
+    margin-top: 0px;
+    color: #F6FAFB;
+  }
