@@ -239,3 +239,22 @@ textarea:focus, input:focus {
     font-size: 32px;
     margin-left: 5px;
   }
+
+  .bunker-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+  }
+
+  .bunker-button {
+    max-width: 30%;
+    min-height: 20%;
+    background-color: #133A00;
+    color: #F6FAFB;
+    border: none;
+    padding: 4px 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
