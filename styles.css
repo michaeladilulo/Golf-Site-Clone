@@ -260,3 +260,47 @@ textarea:focus, input:focus {
     outline: none;
     cursor: pointer;
   }
+
+  /* Ratings Section */
+
+  .mikey-golf-rating-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #133A00;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .golf-rating-card {
+    max-width: 20%;
+    border: 1px solid transparent;
+    padding: 20px;
+    background-color: #F6FAFB;
+    border-radius: 5px;
+  }
+
+  .golf-rating-text {
+    font-size: 10px;
+  }
+
+  .golf-rating-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .golf-rating-card-content-ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rating-star {
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .golf-rating-bottom-text {
+    color: #133A00;
+  }
