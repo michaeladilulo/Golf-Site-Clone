@@ -232,7 +232,8 @@ textarea:focus, input:focus {
   }
 
   .bunker-icon {
-    font-size: 40px;
+    font-size: 37px;
+    color: #133A00;
   }
 
   .bunker-section-bigger-text {
