@@ -205,3 +205,37 @@ textarea:focus, input:focus {
 .golf-amenities-icon {
     font-size: 18px;
 }
+
+/* Bunker Section */
+
+.bunker-image {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    margin: 70px 0px 70px 70px;
+  }
+
+  .bunker-image-container {
+    max-width: 50%;
+  }
+
+  .bunker-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6FAFB;
+  }
+
+  .bunker-section-heading-text {
+    max-width: 95%;
+  }
+
+  .bunker-icon {
+    font-size: 40px;
+  }
+
+  .bunker-section-bigger-text {
+    font-size: 32px;
+    margin-left: 5px;
+  }
