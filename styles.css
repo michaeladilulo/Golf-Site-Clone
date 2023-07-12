@@ -350,3 +350,28 @@ textarea:focus, input:focus {
     color: #133A00;
     background-color: #E7E5E6;
   }
+
+  /* Media Query */
+
+  @media (max-width: 576px) {
+    
+    .site-navigation-container {
+      background-color: #133A00;
+  }
+  
+  .site-navigation-contents {
+      display: flex;
+      align-items: center;
+      color: #F6FAFB;
+  }
+  
+  .site-navigation-icon {
+      margin: 0px 10px 0px 10px;
+      font-size: 14px;
+  }
+  
+  .site-navigation-title {
+      font-size: 14px;
+  }
+
+  }
