@@ -350,26 +350,3 @@ textarea:focus, input:focus {
     color: #133A00;
     background-color: #E7E5E6;
   }
-
-
-
-
-
-
-
-/* Media Query For Mobile (390px) - Iphone 12 */
-
-@media only screen and (max-width: 390px) {
-
-/* Navigation Section */
-
-.site-navigation-icon {
-  margin: 0px 10px 0px 10px;
-  font-size: 16px;
-}
-
-.site-navigation-title {
-  font-size: 16px;
-}
-
-}
