@@ -5,6 +5,3 @@
 ### This project covers:
 1. HTML
 2. CSS
-
-![JS Golf Site Header](/images/Form-header-section.jpeg)
-![JS Golf Site Reviews](/images/review-footer-section.jpeg)
