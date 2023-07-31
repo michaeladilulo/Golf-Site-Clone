@@ -5,3 +5,8 @@
 ### This project covers:
 1. HTML
 2. CSS
+
+![Golf Site Clone](/images/Form-header-section%20(1).jpeg)
+![Golf Site Clone](/images/Absolute-relative-card.jpeg)
+![Golf Site Clone](/images/image-text-section.jpeg)
+![Golf Site Clone](/images/review-footer-section.jpeg)
